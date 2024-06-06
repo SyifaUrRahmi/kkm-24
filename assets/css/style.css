@@ -8,6 +8,23 @@ body {
 nav {
   background-color: #9fa6b2;
 }
+
+#informasi,
+#peta,
+#berita,
+#data,
+#edukasi,
+#pelaporan {
+  padding-top: 60px;
+}
+#informasi h3,
+#peta h3,
+#berita h3,
+#data h3,
+#edukasi h3,
+#pelaporan h3 {
+  color: #006699;
+}
 :root {
   --primary: #00d0ff;
   --bg: #010101;
@@ -77,4 +94,29 @@ nav {
   overflow: hidden; /* Mengatur konten berita agar tidak keluar dari card */
   text-overflow: ellipsis; /* Jika konten berita terlalu panjang, maka akan ditampilkan elipsis */
   white-space: nowrap; /* Menghindari wrap teks */
+}
+
+#abu {
+  background-color: #9fa6b2;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-5,
+.col-sm-10,
+.col-md-6,
+.col-sm-12 {
+  display: flex;
+}
+
+.col-md-5 p,
+.col-sm-10 p,
+.col-md-6 p,
+.col-sm-12 p {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
 }
