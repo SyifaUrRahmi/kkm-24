@@ -136,3 +136,6 @@ nav a span {
   flex-direction: column;
   /* justify-content: center; */
 }
+form {
+  margin: 0 15%;
+}
