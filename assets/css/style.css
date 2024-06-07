@@ -139,3 +139,8 @@ nav a span {
 form {
   margin: 0 15%;
 }
+.btn-submit {
+  background-color: #006699;
+  color: #fff;
+  margin-bottom: 100px;
+}
